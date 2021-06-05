@@ -6,10 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap css-->
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <title>Practicando Bootstrap</title>
+    <!--Tipografia-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <!--Css-->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Empleo Google</title>
 </head>
 <body>
-    <h1>Holaaaaa chavales</h1>
+    <div class="container-fluid bg-primary pt-5  pb-5">
+        <form id="formulario" class="container bg-light col-md-6 pt-5 pb-3">
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputName" required>
+                </div>
+              </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" required>
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label">Edad</label>
+                <div class="col-sm-10">
+                    <select class="form-control col-sm-12" id="exampleFormControlSelect1" required>
+                    <option value="" readonly>Elige tu edad</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                    <option value="">32</option>
+                    <option value="">33</option>
+                    <option value="">34</option>
+                    <option value="">35</option>
+                    <option value="">36</option>
+                    <option value="">37</option>
+                    <option value="">38</option>
+                    <option value="">39</option>
+                    <option value="">40</option>
+                    <option value="">41</option>
+                    <option value="">42</option>
+                    <option value="">43</option>
+                    <option value="">44</option>
+                    <option value="">45</option>
+                    <option value="">46</option>
+                    <option value="">47</option>
+                    <option value="">48</option>
+                    <option value="">49</option>
+                    <option value="">50</option>
+                    <option value="">51</option>
+                  </select>
+                </div>
+              </div>
+            <fieldset class="form-group row" id="borde">
+              <legend class="col-form-label col-xs-2 float-sm-left pt-0 pl-3" >¿Te gustaria trabajar desde casa?</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                  <label class="form-check-label" for="gridRadios1">
+                    Claro que sí!
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Lo dudo
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    No me interesa
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="form-group row">
+              <div class="col-sm-10 ">
+                <div class="">
+                    <legend class="col-form-label col-xs-2 float-sm-left pt-0 " >¿Que lenguajes domina?</legend>
+                  </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Java
+                  </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                    <label class="form-check-label" for="gridCheck2">
+                        JavaScript
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck3">
+                    <label class="form-check-label" for="gridCheck3">
+                        Pyton
+
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck4">
+                    <label class="form-check-label" for="gridCheck4">
+                        C#
+
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck5">
+                    <label class="form-check-label" for="gridCheck5">
+                        PHP
+                    </label>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Otro:</label>
+                    <div class="col-xl-8">
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group row justify-content-center" id="borde">
+                <label for="exampleFormControlTextarea1">¿Algún comentario o sugerencia?</label>
+                <textarea class="form-control col-10 " id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group row ">
+              <div class="col-sm-12 text-center">
+                <button type="submit" class="btn btn-primary m-auto">Enviar</button>
+              </div>
+            </div>
+          </form>
+    </div>
 
     <!--B Jquery-->
     <script src="./scripts/jquery-3.6.0.min.js"></script>

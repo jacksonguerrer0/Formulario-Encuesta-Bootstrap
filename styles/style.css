@@ -1,0 +1,14 @@
+*{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.container-fluid{
+    min-height: 100vh;
+}
+#formulario{
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 20px;
+}
+#borde{
+    border-top: 3px double rgb(172, 172, 172);
+    padding-top: 20px;
+}
