@@ -8,7 +8,7 @@ Formulario de encuesta sobre información para trabajar en Google. Se utilizo Bo
 Puedes verlo aquí: https://jacksonguerrer0.github.io/Formulario-Encuesta-Bootstrap/index.html
 
 
-###👀  Vista previa
+## 👀  Vista previa
 ![Míralo](img/pc.png)
 
 ## 🌟 Autor
